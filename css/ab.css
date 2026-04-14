@@ -1,0 +1,130 @@
+/* ===== Base ===== */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9f5;
+    line-height: 1.8;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+/* ===== Headings ===== */
+h2 {
+    text-align: center;
+    color: #5F6B09;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #5F6B09;
+    font-size: 24px;
+}
+
+h4 {
+    color: #5F6B09;
+    font-size: 18px;
+}
+
+/* ===== Paragraphs ===== */
+p {
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 15px;
+    color: #444;
+}
+
+/* ===== Sections ===== */
+section {
+    margin-bottom: 50px;
+}
+
+/* ===== Cards ===== */
+.card {
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+/* ===== Grid ===== */
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+/* ===== Lists ===== */
+ul {
+    max-width: 750px;
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    background: #fff;
+    margin: 12px 0;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 17px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+/* ===== Section Colors (تفريق بصري) ===== */
+.about {
+    background: #ffffff;
+}
+
+.vision-mission {
+    background: #f1f5ec;
+}
+
+.objectives {
+    background: #ffffff;
+}
+
+.areas {
+    background: #f1f5ec;
+}
+
+.target {
+    background: #ffffff;
+}
+
+.achievements {
+    background: #f1f5ec;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 40px 15px;
+    }
+}

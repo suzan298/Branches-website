@@ -1,0 +1,113 @@
+
+
+.page {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Cairo', sans-serif;
+  background: #f7f7f7;
+}
+
+/* الصفحة */
+.page {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* العنوان */
+.top-bar {
+  margin-bottom: 30px;
+}
+
+.top-bar h1 {
+  font-size: 28px;
+}
+
+/* الشبكة */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 22px;
+}
+
+/* الكرت */
+.service-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* hover */
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+/* الصورة */
+.service-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* النص */
+.card-text {
+  padding: 16px;
+}
+
+/* العنوان */
+.card-text h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  color: #5F6B09;
+}
+
+/* الوصف */
+.card-text p {
+  font-size: 13px;
+  color: #777;
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+/* إزالة الخط تحت الروابط نهائياً */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-text {
+  padding: 14px;
+}
+
+.card-text h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.card-text p {
+  font-size: 12px;
+  color: #777;
+  margin-top: 6px;
+}
+
