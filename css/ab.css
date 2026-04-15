@@ -65,14 +65,14 @@ section {
 }
 
 
-ul {
+.content-list {
     max-width: 750px;
     margin: 20px auto;
     padding: 0;
     list-style: none;
 }
 
-ul li {
+.content-list li {
     background: #fff;
     margin: 12px 0;
     padding: 15px;
