@@ -1,6 +1,4 @@
 
-
-/* ===== Hero ===== */
 .hero {
   display: flex;
   justify-content: space-between;
@@ -29,12 +27,7 @@
   object-fit: cover;
   box-shadow: 0 18px 30px rgba(0,0,0,.12);
 }
-/* .hero-imge{
-   width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  object-fit: cover;  
-} */
+
 
 .hero-text p {
   margin: 20px 0;
@@ -50,8 +43,7 @@
   cursor: pointer;
 }
 
- 
-/* ===== Services ===== */
+
 .services {
   padding: 60px 80px;
 }
@@ -94,7 +86,6 @@
 }
 
 
-/* ===== Financing ===== */
 .financing {
   display: flex;
   justify-content: space-between;
